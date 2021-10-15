@@ -1,0 +1,41 @@
+$HedFootColor: #2B2A29;
+
+$HeadersColor: #D2D2D2;
+
+%WebPageFont{
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+}
+
+header{
+	@extend %WebPageFont;
+	background: $HedFootColor;
+	max-width: auto;
+	padding: 10% 0% 10% 0%;
+	color: $HeadersColor;
+	font-weight: 700;
+}
+
+footer {
+	height: 50px;
+	max-width: auto;
+	background: $HedFootColor;
+}
+
+h1, h2{
+	@extend %WebPageFont;
+	color: $HeadersColor;
+	display: block;
+	text-align: center;
+	font-size: inherit;
+	font-weight: 700;
+}
+
+div, p, h1, h2, button, input  {
+	/*border: 1px solid red;*/
+}
+
+input {
+	margin: 15px 0px 15px 15px;
+	height: 20px;
+}

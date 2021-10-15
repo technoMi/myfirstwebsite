@@ -1,0 +1,296 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss ***!
+  \**************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss (1) ***!
+  \******************************************************************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+header, h1, h2 {
+  font-family: Arial, sans-serif;
+  font-size: 50px; }
+
+header {
+  background: #2B2A29;
+  max-width: auto;
+  padding: 10% 0% 10% 0%;
+  color: #D2D2D2;
+  font-weight: 700; }
+
+footer {
+  height: 50px;
+  max-width: auto;
+  background: #2B2A29; }
+
+h1, h2 {
+  color: #D2D2D2;
+  display: block;
+  text-align: center;
+  font-size: inherit;
+  font-weight: 700; }
+
+div, p, h1, h2, button, input {
+  /*border: 1px solid red;*/ }
+
+input {
+  margin: 15px 0px 15px 15px;
+  height: 20px; }
+
+.paragraph_header_left, .paragraph_header_right {
+  font-family: "Roboto", sans-serif;
+  font-size: 47px;
+  color: #2B2A29; }
+
+.paragraph_content_left, .paragraph_content_right {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: #2B2A29;
+  background-color: white;
+  text-align: justify;
+  line-height: 35px; }
+
+.content_container {
+  max-width: 2800px;
+  margin: 0 auto; }
+
+.paragraph_header_left {
+  margin: 10% 40% 0% 4%; }
+
+.paragraph_content_left {
+  margin: 0.5% 40% 0% 4%; }
+
+.paragraph_header_right {
+  margin: 10% 4% 0% 40%;
+  text-align: right; }
+
+.paragraph_content_right {
+  margin: 0.5% 4% 0% 40%; }
+
+.photo_box {
+  height: 300px;
+  width: 100%; }
+
+.photo_box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 589px;
+  height: 236px; }
+
+.link_box {
+  margin: 0px 20px 0px 0px;
+  height: 50px;
+  float: right; }
+
+.link_box img {
+  margin: 10% 6px 0px 0px; }
+
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/null-style.scss ***!
+  \*******************************************************************************************************************/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+/*!******************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/out-of-class-settings.scss ***!
+  \******************************************************************************************************************************/
+header, h1, h2 {
+  font-family: Arial, sans-serif;
+  font-size: 50px; }
+
+header {
+  background: #2B2A29;
+  max-width: auto;
+  padding: 10% 0% 10% 0%;
+  color: #D2D2D2;
+  font-weight: 700; }
+
+footer {
+  height: 50px;
+  max-width: auto;
+  background: #2B2A29; }
+
+h1, h2 {
+  color: #D2D2D2;
+  display: block;
+  text-align: center;
+  font-size: inherit;
+  font-weight: 700; }
+
+div, p, h1, h2, button, input {
+  /*border: 1px solid red;*/ }
+
+input {
+  margin: 15px 0px 15px 15px;
+  height: 20px; }
+
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/adaptive.scss ***!
+  \*****************************************************************************************************************/
+@charset "UTF-8";
+/*Ориентировался на разрешение 2560/1440*/
+@media only screen and (min-width: 2100px) {
+  header h1, h2 {
+    font-size: 82px; }
+  .paragraph_header_left {
+    font-size: 68px; }
+  .paragraph_content_left {
+    font-size: 50px;
+    line-height: 50px; }
+  .paragraph_header_right {
+    font-size: 68px; }
+  .paragraph_content_right {
+    font-size: 50px;
+    line-height: 50px; }
+  footer {
+    height: 80px; }
+  input {
+    margin: 20px 5px 20px 20px;
+    height: 40px;
+    font-size: 25px; }
+  .photo_box {
+    height: 410px;
+    width: 100%; }
+  .photo_box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5%;
+    width: 824px;
+    height: 330px; }
+  .link_box {
+    margin: 0px 20px 0px 0px;
+    height: 50px;
+    float: right; }
+  .link_box img {
+    margin: 25px 15px 0px 0px; } }
+
+/*Далее проверял все популярные разрешения экранов: 1920/1080, 1600/900, 1440х900, 1366/768,
+1280/720. Сайт выглядел как надо на этих разрешениях.
+
+Проблемы начались с 1024/768. CSS код для этого разрешения представлен ниже.
+*/
+@media only screen and (max-width: 1024px) {
+  header h1, h2 {
+    font-size: 40px; }
+  .paragraph_header_left {
+    font-size: 36px; }
+  .paragraph_content_left {
+    margin: 1% 40% 0% 4%;
+    font-size: 22px;
+    line-height: 25px; }
+  .paragraph_header_right {
+    font-size: 36px; }
+  .paragraph_content_right {
+    font-size: 22px;
+    line-height: 25px; }
+  .photo_box img {
+    margin-top: 3%;
+    width: 589px;
+    height: 236px; } }
+

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "null-style.scss";
+
+@import "out-of-class-settings";
+
+$ContentHeaderSize: 47px;
+$ContentTextSize: 25px;
+$GeneralTextColor: #2B2A29;
+$GeneralTextFont: 'Roboto', sans-serif;
+
+%ContentHeader{
+	font-family: $GeneralTextFont;
+	font-size: $ContentHeaderSize;
+	color: $GeneralTextColor;
+}
+
+%ContentText{
+	font-family: $GeneralTextFont;
+	font-size: $ContentTextSize;
+	color: $GeneralTextColor;
+	background-color: white;
+	text-align: justify;
+	line-height: 35px;
+}
+
+.content_container{
+	max-width: 2800px;
+	margin: 0 auto;
+}
+
+.paragraph_header_left{
+	margin: 10% 40% 0% 4%;
+	@extend %ContentHeader;
+}
+
+.paragraph_content_left{
+	margin: 0.5% 40% 0% 4%;
+	@extend %ContentText;
+}
+
+.paragraph_header_right{
+	margin: 10% 4% 0% 40%;
+	text-align: right;
+	@extend %ContentHeader;
+}
+
+.paragraph_content_right{
+	margin: 0.5% 4% 0% 40%;
+	@extend %ContentText;
+}
+
+.photo_box{
+	height: 300px;
+	width: 100%;
+}
+
+.photo_box img{	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	width: 589px; 
+	height: 236px;
+}
+
+.link_box {
+	margin: 0px 20px 0px 0px;
+	height: 50px;
+	float: right;
+}
+
+.link_box img{
+	margin: 10% 6px 0px 0px;
+}
+
+
+

@@ -1,0 +1,94 @@
+/*Ориентировался на разрешение 2560/1440*/
+@media only screen and (min-width: 2100px){
+
+	header h1, h2{
+		font-size: 82px;
+	}
+
+	.paragraph_header_left{
+		font-size: 68px;
+	}
+	.paragraph_content_left{
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+	.paragraph_header_right{
+		font-size: 68px;
+	}
+	.paragraph_content_right{
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+	footer{
+		height: 80px;
+	}
+
+	input {
+		margin: 20px 5px 20px 20px;
+		height: 40px;
+		font-size: 25px;
+	}
+
+	.photo_box{
+		height: 410px;
+		width: 100%;
+	}
+
+	.photo_box img{	
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1.5%;
+		width: 824px; 
+		height: 330px;
+	}
+
+	.link_box {
+		margin: 0px 20px 0px 0px;
+		height: 50px;
+		float: right;
+	}
+
+	.link_box img{
+		margin: 25px 15px 0px 0px;
+	}
+}
+
+/*Далее проверял все популярные разрешения экранов: 1920/1080, 1600/900, 1440х900, 1366/768,
+1280/720. Сайт выглядел как надо на этих разрешениях.
+
+Проблемы начались с 1024/768. CSS код для этого разрешения представлен ниже.
+*/
+
+@media only screen and (max-width: 1024px){
+
+	header h1, h2{
+		font-size: 40px;
+	}
+
+	.paragraph_header_left{
+		font-size: 36px;
+	}
+	.paragraph_content_left{
+		margin: 1% 40% 0% 4%;
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+	.paragraph_header_right{
+		font-size: 36px;
+	}
+
+	.paragraph_content_right{
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+	.photo_box img{	
+		margin-top: 3%;
+		width: 589px; 
+		height: 236px;
+	}
+}
